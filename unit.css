@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400&display=swap');
+.heading{
+    z-index: 1;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 18%), 0 3px 1px -2px rgb(0 0 0 / 24%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    padding: 10px;
+    font-size: 58px;
+    color: #9984a7!important;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-left: 200px;
+}
+
+#content{
+    
+    display: flex;
+    /* text-align: center; */
+   
+    /* margin: auto; */
+    width: 50%;
+    
+    padding: 200px;
+    padding-left: 65px;
+    margin-top: -40px;
+}
+.equalto{
+    margin-top: -10px;
+   
+}
+.buttons{
+    padding-left: 350px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+   margin-top: 25px;
+
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    border: 1px solid;
+    border-color: #5b6497;
+    color: #fff;
+    font-weight: bolder;
+}
+.btn:hover{
+    background-color: #9984a7!important;
+}
+#error{
+    color: red;
+}
+#unitto,#unitfrom{
+    width: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+    font-weight: bolder;
+}
+#nofrom,#noto{
+    width: 262px;
+    border: 1px solid;
+    
+}
+.icon{
+    height: 100px;
+    width: 100px;
+   
+    margin-left: 1080px;
+    margin-top: -480px;
+    position: absolute;
+    border-radius: 50%;
+  /*   border: 1px solid; */
+    /* background-color: aquamarine; */
+}
+.img{
+    height: 100px;
+    width: 100px;
+    
+}
+#error{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: -150px;
+    margin-left: 155px;
+    /* margin-bottom: 0px; */
+    margin-top: 140px;
+    font-size: 1.3rem;
+}
+
+body {
+   
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   background-color: #1f092e;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.box{
+    position: relative;
+    width: 700px;
+    height: 450px;
+    /* display: flex; */
+    justify-content: center;
+    align-content: center;
+    background: #2c123d;
+    padding: 25px;
+    margin-left: 420px;
+}
+.box::before{
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: #ffffff;
+    z-index: -1;
+}
+.box::after{
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: #ffffff;
+    z-index: -1;
+    filter: blur(20px);
+}
+.box::before,
+.box::after{
+    background: linear-gradient(235deg, #a95ea5, #bc3e51, #6cdf68);
+}
+h1{
+    margin-bottom: 10px;
+}
+p{
+    line-height: 24px;
+}
